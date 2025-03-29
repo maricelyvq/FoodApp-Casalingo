@@ -6,11 +6,11 @@ const Header = () => {
 
     return (
       
-        <div className="border-b-3 bg-green-700 py-6">
+        <div style={{ backgroundColor: "#ffbd59" }} className="border-b-3  py-6">
             <div className = "container mx-auto flex justify-between items-center">
                 <Link 
                 to="/"
-                className="text-3x1 font-bold tracking-tight text-orange-500" >
+                className="text-3xl font-bold tracking-tight text-green-800" >
                 Casalingo.com
                 </Link>
                 <div className="md:hidden">
