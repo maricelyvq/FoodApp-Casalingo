@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
       
-        <div style={{ backgroundColor: "#ffbd59" }} className="border-b-3  py-6">
+        <div style={{ backgroundColor: "#ffbd59" }} className="border-b-3 px-2 py-4">
             <div className = "container mx-auto flex justify-between items-center">
                 <Link 
                 to="/"
