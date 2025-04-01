@@ -9,6 +9,7 @@ import { User } from "../../types";
 import { useEffect } from "react";
 
 
+
 const formSchema = z.object({
   email: z.string().optional(),
   name: z.string().min(1, "name is required"),
@@ -22,6 +23,7 @@ export type UserFormData = z.infer<typeof formSchema>;
 type Props = {
   onSave: (userProfileData: UserFormData) => void;
   isLoading: boolean;
+
   currentUser: User;
 }
 

@@ -1,3 +1,4 @@
+
 import { useGetMyUser, useUpdateMyUser } from "../api/MyUserApi";
 import UserProfileForm from "../form/user-profile-form/UserProfileForm"
 
@@ -18,7 +19,7 @@ const UserProfilePage = () => {
   return <UserProfileForm currentUser={currentUser} onSave={updateUser} isLoading={isUpdateLoading}/>;
 
 
-
 };
+
 
 export default UserProfilePage;
