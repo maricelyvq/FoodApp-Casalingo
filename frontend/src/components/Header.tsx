@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import MainNav from "./MainNav";
+import title from "../assets/title.png";
 
 const Header = () => {
 
     return (
       
-        <div style={{ backgroundColor: "#ffbd59" }} className="border-b-3 px-2 py-4">
+        <div className="bg-amber-600  border-b-3 px-2 py-4">
             <div className = "container mx-auto flex justify-between items-center">
                 <Link 
                 to="/"
-                className="text-2xl font-bold font-serif tracking-tight text-green-800" >
-                Casalingo.com
+                className="flex items-center">
+                    <img src={title} alt="Logo" className="w-50 h-10" />
                 </Link>
                 <div className="md:hidden">
                     <MobileNav/>

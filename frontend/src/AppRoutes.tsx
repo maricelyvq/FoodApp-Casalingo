@@ -3,6 +3,7 @@ import Layout from './layouts/layout';
 import HomePage from './pages/HomePage';
 import AuthCallbackPage from './pages/AuthCallbackPage';
 import UserProfilePage from './pages/UserProfilePage';
+import ManageRestaurantPage from './pages/ManageRestaurantPage';
 
 
 const AppRoutes = () => {
@@ -19,6 +20,12 @@ const AppRoutes = () => {
     element={
     <Layout> 
       <UserProfilePage/>
+    </Layout>} />
+    <Route 
+    path="/manage-restaurant" 
+    element={
+    <Layout> 
+      <ManageRestaurantPage/>
     </Layout>} />
     <Route path="*" element={<Navigate to="/" />}  />
  </Routes>

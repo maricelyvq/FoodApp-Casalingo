@@ -10,8 +10,8 @@ const HomePage = () => {
         <div className="flex flex-col gap-12 p-2">
 
             <div className="md:px bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-18">
-                <h1 className="text-5xl font-bold tracking-tight text-amber-600">
-                    Tuck into a takeway today
+                <h1 className="text-5xl font-bold tracking-tight text-green-800" >
+                    Welcome to Casalingo!
                 </h1>
                 <span className="text-xl">Food is Just a click away!</span>
             </div>
